@@ -139,39 +139,35 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\billboard_technique.cpp" />
-    <ClCompile Include="..\camera.cpp" />
-    <ClCompile Include="..\glut_backend.cpp" />
-    <ClCompile Include="..\lighting_technique.cpp" />
-    <ClCompile Include="..\main.cpp" />
-    <ClCompile Include="..\math_3d.cpp" />
-    <ClCompile Include="..\mesh.cpp" />
-    <ClCompile Include="..\particle_system.cpp" />
-    <ClCompile Include="..\pipeline.cpp" />
-    <ClCompile Include="..\ps_update_technique.cpp" />
-    <ClCompile Include="..\random_texture.cpp" />
-    <ClCompile Include="..\technique.cpp" />
-    <ClCompile Include="..\texture.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\billboard_technique.h" />
-    <ClInclude Include="..\callbacks.h" />
-    <ClInclude Include="..\camera.h" />
-    <ClInclude Include="..\engine_common.h" />
-    <ClInclude Include="..\glut_backend.h" />
-    <ClInclude Include="..\lighting_technique.h" />
-    <ClInclude Include="..\math_3d.h" />
-    <ClInclude Include="..\mesh.h" />
-    <ClInclude Include="..\particle_system.h" />
-    <ClInclude Include="..\pipeline.h" />
-    <ClInclude Include="..\ps_update_technique.h" />
-    <ClInclude Include="..\random_texture.h" />
-    <ClInclude Include="..\technique.h" />
-    <ClInclude Include="..\texture.h" />
-    <ClInclude Include="..\util.h" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\files\billboard_list.cpp" />
+    <ClCompile Include="..\files\billboard_technique.cpp" />
+    <ClCompile Include="..\files\camera.cpp" />
+    <ClCompile Include="..\files\glut_backend.cpp" />
+    <ClCompile Include="..\files\lighting_technique.cpp" />
+    <ClCompile Include="..\files\main.cpp" />
+    <ClCompile Include="..\files\math_3d.cpp" />
+    <ClCompile Include="..\files\mesh.cpp" />
+    <ClCompile Include="..\files\pipeline.cpp" />
+    <ClCompile Include="..\files\technique.cpp" />
+    <ClCompile Include="..\files\texture.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\files\billboard_list.h" />
+    <ClInclude Include="..\files\billboard_technique.h" />
+    <ClInclude Include="..\files\callbacks.h" />
+    <ClInclude Include="..\files\camera.h" />
+    <ClInclude Include="..\files\engine_common.h" />
+    <ClInclude Include="..\files\glut_backend.h" />
+    <ClInclude Include="..\files\lighting_technique.h" />
+    <ClInclude Include="..\files\math_3d.h" />
+    <ClInclude Include="..\files\mesh.h" />
+    <ClInclude Include="..\files\pipeline.h" />
+    <ClInclude Include="..\files\technique.h" />
+    <ClInclude Include="..\files\texture.h" />
+    <ClInclude Include="..\files\util.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
